@@ -33185,3 +33185,62 @@ page-home super-tabs-toolbar > ion-toolbar.toolbar .tab-buttons-container .tab-b
   opacity: 1 !important;
   color: #8f9090 !important;
 }
+
+imenu .dv_box {
+  border-bottom: 1px solid #e6e6e6;
+  background: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px 0;
+}
+
+imenu .dv_box .dv_items {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  text-align: center;
+}
+
+imenu .dv_box .dv_items i {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+imenu .dv_box .dv_items p {
+  margin: 6px 0 !important;
+  color: #636363;
+}
+
+imenu .dv_box .dv_items .icon-wrap {
+  width: 60px;
+  height: 58px;
+  background: #fff;
+  border: 1px solid #d33a31;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin: 0 auto;
+  color: #d33a31;
+  text-align: center;
+  line-height: 60px;
+  font-size: 26px;
+}
+
+swiper .swiper-container {
+  width: 100%;
+  height: 135px;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+}
+
+swiper .swiper-container .swiper-slide {
+  background-size: cover !important;
+  background-position: center center !important;
+}

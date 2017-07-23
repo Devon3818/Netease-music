@@ -1,0 +1,38 @@
+imenu {
+    .dv_box {
+        border-bottom: 1px solid #e6e6e6;
+        background: #fff;
+        margin-bottom: 20px;
+        width: 100%;
+        display: -webkit-flex;
+        display: flex;
+        padding: 8px 0;
+        .dv_items {
+            flex-grow: 1;
+            -webkit-flex-grow: 1;
+            text-align: center;
+            i {
+                font-size: 1rem;
+                font-weight: bolder;
+            }
+            p {
+                margin: 6px 0 !important;
+                color: #636363;
+            }
+            .icon-wrap {
+                width: 60px;
+                height: 58px;
+                background: #fff;
+                border: 1px solid #d33a31;
+                box-sizing: border-box;
+                border-radius: 9999px;
+                overflow: hidden;
+                margin: 0 auto;
+                color: #d33a31;
+                text-align: center;
+                line-height: 60px;
+                font-size: 26px;
+            }
+        }
+    }
+}
