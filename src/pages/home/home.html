@@ -1,14 +1,44 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+<ion-header no-border>
+
+    <ion-toolbar color="ired">
+        <ion-buttons left>
+            <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+        </ion-buttons>
+        <ion-segment no-border color="light" [(ngModel)]="segments">
+            <ion-segment-button class="s-left" value="music">
+                <ion-icon name="musical-notes"></ion-icon>
+            </ion-segment-button>
+            <ion-segment-button value="home">
+                <ion-icon name="home"></ion-icon>
+            </ion-segment-button>
+            <ion-segment-button class="s-right" value="contacts">
+                <ion-icon name="contacts"></ion-icon>
+            </ion-segment-button>
+        </ion-segment>
+        <ion-buttons end>
+            <button ion-button icon-only>
+        <ion-icon name="search"></ion-icon>
+      </button>
+        </ion-buttons>
+    </ion-toolbar>
+
+
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content [ngSwitch]="segments">
+    <section class="icontent" *ngSwitchCase="'music'">1</section>
+
+    <section class="icontent" *ngSwitchCase="'home'">
+        <super-tabs selectedTabIndex="0" toolbarColor="ired" toolbarBackground="ifff" indicatorColor="ired" badgeColor="ired">
+            <super-tab [root]="recommended" title="个性推荐"></super-tab>
+            <super-tab [root]="page2" title="歌单"></super-tab>
+            <super-tab [root]="page3" title="主播电台"></super-tab>
+            <super-tab [root]="page4" title="排行榜"></super-tab>
+        </super-tabs>
+    </section>
+
+    <section class="icontent" *ngSwitchCase="'contacts'">3</section>
+
 </ion-content>
