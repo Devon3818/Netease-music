@@ -1,3 +1,46 @@
 page-playlist {
-
+    .iheader {
+        width: 100%;
+        padding: 16px;
+        overflow: hidden;
+        .all {
+            float: left;
+            padding: 8px 18px;
+            border: 1px solid #eee;
+            border-radius: 9999px;
+        }
+        .ti {
+            float: right;
+            padding: 8px 7px;
+        }
+    }
+    .card {
+        width: 50%;
+        overflow: hidden;
+        float: left;
+        margin-bottom: 10px;
+        border-left: 4px solid #fff;
+        box-sizing: border-box;
+        background: #fff;
+        .imgs {
+            width: 100%;
+            height: 0;
+            padding-bottom: 100%;
+            background-color: #008b57;
+        }
+        p {
+            display: block;
+            width: 100%;
+            padding: 0 5px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            margin: 6px 0;
+        }
+    }
+    .card:nth-of-type(2n) {
+        .imgs {
+            border-right: 4px solid #fff;
+        }
+    }
 }

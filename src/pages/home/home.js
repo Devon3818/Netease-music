@@ -24,5 +24,23 @@ export default StyleSheet.create({
   'page-home super-tabs-toolbar > ion-toolbartoolbar tab-buttons-container tab-buttons super-tab-button:not(selected) span:not(badge)': {
     'opacity': '1 !important',
     'color': '#8f9090 !important'
+  },
+  'page-home ion-footer img': {
+    'float': 'left'
+  },
+  'page-home ion-footer p': {
+    'marginLeft': [{ 'unit': 'px', 'value': 12 }],
+    'float': 'left',
+    'width': [{ 'unit': '%H', 'value': 0.5 }],
+    'background': '#fff',
+    'textOverflow': 'ellipsis',
+    'overflow': 'hidden',
+    'whiteSpace': 'nowrap'
+  },
+  'page-home ion-footer ion-icon': {
+    'float': 'right',
+    'lineHeight': [{ 'unit': 'px', 'value': 50 }],
+    'fontSize': [{ 'unit': 'px', 'value': 36 }],
+    'marginLeft': [{ 'unit': 'px', 'value': 16 }]
   }
 });

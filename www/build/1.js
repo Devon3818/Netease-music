@@ -1,6 +1,6 @@
 webpackJsonp([1],{
 
-/***/ 262:
+/***/ 265:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,15 +8,17 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RecommendedPageModule", function() { return RecommendedPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__recommended__ = __webpack_require__(281);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_swiper_swiper_module__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_imenu_imenu_module__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__recommended__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_swiper_swiper_module__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_imenu_imenu_module__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_music_card_music_card_module__ = __webpack_require__(292);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -35,7 +37,8 @@ RecommendedPageModule = __decorate([
         imports: [
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__recommended__["a" /* RecommendedPage */]),
             __WEBPACK_IMPORTED_MODULE_3__components_swiper_swiper_module__["a" /* SwiperComponentModule */],
-            __WEBPACK_IMPORTED_MODULE_4__components_imenu_imenu_module__["a" /* MenuComponentModule */]
+            __WEBPACK_IMPORTED_MODULE_4__components_imenu_imenu_module__["a" /* MenuComponentModule */],
+            __WEBPACK_IMPORTED_MODULE_5__components_music_card_music_card_module__["a" /* MusicCardComponentModule */]
         ],
         exports: [
             __WEBPACK_IMPORTED_MODULE_2__recommended__["a" /* RecommendedPage */]
@@ -47,7 +50,7 @@ RecommendedPageModule = __decorate([
 
 /***/ }),
 
-/***/ 281:
+/***/ 287:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -94,7 +97,7 @@ var RecommendedPage = (function () {
 RecommendedPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-recommended',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/recommended/recommended.html"*/'<!--\n  Generated template for the RecommendedPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n\n<ion-content>\n    <swiper [data]="swiperlist"></swiper>\n\n    <imenu></imenu>\n\n</ion-content>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/recommended/recommended.html"*/,
+        selector: 'page-recommended',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/recommended/recommended.html"*/'<!--\n  Generated template for the RecommendedPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n\n<ion-content>\n    <swiper [data]="swiperlist"></swiper>\n\n    <imenu></imenu>\n\n    <ion-list-header>\n        推荐歌单 >\n    </ion-list-header>\n    <music-card></music-card>\n\n    <ion-list-header>\n        独家放送 >\n    </ion-list-header>\n    <music-card></music-card>\n\n    <ion-list-header>\n        最新音乐 >\n    </ion-list-header>\n    <music-card></music-card>\n\n    <ion-list-header>\n        推荐MV >\n    </ion-list-header>\n    <music-card></music-card>\n\n    <ion-list-header>\n        主播电台 >\n    </ion-list-header>\n    <music-card></music-card>\n\n\n</ion-content>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/recommended/recommended.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
 ], RecommendedPage);
@@ -103,14 +106,14 @@ RecommendedPage = __decorate([
 
 /***/ }),
 
-/***/ 282:
+/***/ 288:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SwiperComponentModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper__ = __webpack_require__(289);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -143,7 +146,7 @@ SwiperComponentModule = __decorate([
 
 /***/ }),
 
-/***/ 283:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -193,14 +196,14 @@ SwiperComponent = __decorate([
 
 /***/ }),
 
-/***/ 284:
+/***/ 290:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuComponentModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__imenu__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__imenu__ = __webpack_require__(291);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -233,7 +236,7 @@ MenuComponentModule = __decorate([
 
 /***/ }),
 
-/***/ 285:
+/***/ 291:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -270,6 +273,86 @@ MenuComponent = __decorate([
 ], MenuComponent);
 
 //# sourceMappingURL=imenu.js.map
+
+/***/ }),
+
+/***/ 292:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MusicCardComponentModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__music_card__ = __webpack_require__(293);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var MusicCardComponentModule = (function () {
+    function MusicCardComponentModule() {
+    }
+    return MusicCardComponentModule;
+}());
+MusicCardComponentModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__music_card__["a" /* MusicCardComponent */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicModule */],
+        ],
+        exports: [
+            __WEBPACK_IMPORTED_MODULE_2__music_card__["a" /* MusicCardComponent */]
+        ]
+    })
+], MusicCardComponentModule);
+
+//# sourceMappingURL=music-card.module.js.map
+
+/***/ }),
+
+/***/ 293:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MusicCardComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+/**
+ * Generated class for the MusicCardComponent component.
+ *
+ * See https://angular.io/docs/ts/latest/api/core/index/ComponentMetadata-class.html
+ * for more info on Angular Components.
+ */
+var MusicCardComponent = (function () {
+    function MusicCardComponent() {
+        console.log('Hello MusicCardComponent Component');
+        this.text = 'Hello World';
+    }
+    return MusicCardComponent;
+}());
+MusicCardComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'music-card',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/recommended/components/music-card/music-card.html"*/'<!-- Generated template for the MusicCardComponent component -->\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/recommended/components/music-card/music-card.html"*/
+    }),
+    __metadata("design:paramtypes", [])
+], MusicCardComponent);
+
+//# sourceMappingURL=music-card.js.map
 
 /***/ })
 

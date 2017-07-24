@@ -10,9 +10,9 @@ export class HomePage {
 
   segments = "home";
   recommended = "RecommendedPage";
-  page2 = "RecommendedPage";
-  page3 = "RecommendedPage";
-  page4 = "RecommendedPage";
+  playlist = "PlaylistPage";
+  radio = "RadioPage";
+  ranking = "RankingPage";
 
   constructor(public navCtrl: NavController) {
 

@@ -33,9 +33,9 @@
     <section class="icontent" *ngSwitchCase="'home'">
         <super-tabs selectedTabIndex="0" toolbarColor="ired" toolbarBackground="ifff" indicatorColor="ired" badgeColor="ired">
             <super-tab [root]="recommended" title="个性推荐"></super-tab>
-            <super-tab [root]="page2" title="歌单"></super-tab>
-            <super-tab [root]="page3" title="主播电台"></super-tab>
-            <super-tab [root]="page4" title="排行榜"></super-tab>
+            <super-tab [root]="playlist" title="歌单"></super-tab>
+            <super-tab [root]="radio" title="主播电台"></super-tab>
+            <super-tab [root]="ranking" title="排行榜"></super-tab>
         </super-tabs>
     </section>
 
@@ -45,6 +45,9 @@
 
 <ion-footer no-border>
     <ion-toolbar color="ifff">
-        <ion-title>Footer</ion-title>
+        <img src="http://p1.music.126.net/JasIh-W-RcFspF2FBmnebQ==/19032546277052763.jpg?param=50y50&quality=100" alt="">
+        <p>DINOSAUR</p>
+        <ion-icon name="list-box"></ion-icon>
+        <ion-icon name="arrow-dropright-circle"></ion-icon>
     </ion-toolbar>
 </ion-footer>

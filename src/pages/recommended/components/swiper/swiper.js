@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   'swiper swiper-container': {
     'width': [{ 'unit': '%H', 'value': 1 }],
-    'height': [{ 'unit': 'px', 'value': 135 }],
+    'height': [{ 'unit': 'px', 'value': 145 }],
     'textAlign': 'center',
     'fontSize': [{ 'unit': 'px', 'value': 25 }],
     'color': '#fff'

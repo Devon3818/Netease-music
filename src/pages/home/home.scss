@@ -20,4 +20,24 @@ page-home {
         opacity: 1 !important;
         color: #8f9090 !important;
     }
+    ion-footer {
+        img {
+            float: left;
+        }
+        p {
+            margin-left: 12px;
+            float: left;
+            width: 50%;
+            background: #fff;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        ion-icon {
+            float: right;
+            line-height: 50px;
+            font-size: 36px;
+            margin-left: 16px
+        }
+    }
 }

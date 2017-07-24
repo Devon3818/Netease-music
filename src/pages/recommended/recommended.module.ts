@@ -3,6 +3,7 @@ import { IonicPageModule } from 'ionic-angular';
 import { RecommendedPage } from './recommended';
 import { SwiperComponentModule } from './components/swiper/swiper.module';
 import { MenuComponentModule } from './components/imenu/imenu.module';
+import { MusicCardComponentModule } from './components/music-card/music-card.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { MenuComponentModule } from './components/imenu/imenu.module';
   imports: [
     IonicPageModule.forChild(RecommendedPage),
     SwiperComponentModule,
-    MenuComponentModule
+    MenuComponentModule,
+    MusicCardComponentModule
   ],
   exports: [
     RecommendedPage

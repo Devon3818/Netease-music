@@ -33186,6 +33186,185 @@ page-home super-tabs-toolbar > ion-toolbar.toolbar .tab-buttons-container .tab-b
   color: #8f9090 !important;
 }
 
+page-home ion-footer img {
+  float: left;
+}
+
+page-home ion-footer p {
+  margin-left: 12px;
+  float: left;
+  width: 50%;
+  background: #fff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+page-home ion-footer ion-icon {
+  float: right;
+  line-height: 50px;
+  font-size: 36px;
+  margin-left: 16px;
+}
+
+page-playlist .iheader {
+  width: 100%;
+  padding: 16px;
+  overflow: hidden;
+}
+
+page-playlist .iheader .all {
+  float: left;
+  padding: 8px 18px;
+  border: 1px solid #eee;
+  border-radius: 9999px;
+}
+
+page-playlist .iheader .ti {
+  float: right;
+  padding: 8px 7px;
+}
+
+page-playlist .card {
+  width: 50%;
+  overflow: hidden;
+  float: left;
+  margin-bottom: 10px;
+  border-left: 4px solid #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+page-playlist .card .imgs {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  background-color: #008b57;
+}
+
+page-playlist .card p {
+  display: block;
+  width: 100%;
+  padding: 0 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 6px 0;
+}
+
+page-playlist .card:nth-of-type(2n) .imgs {
+  border-right: 4px solid #fff;
+}
+
+page-radio ion-list-header {
+  border: none !important;
+  margin-bottom: 5px !important;
+  border-left: 5px solid #d33a31 !important;
+  height: auto !important;
+  min-height: auto !important;
+}
+
+page-radio .dv_box {
+  border-bottom: 1px solid #e6e6e6;
+  background: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px 0;
+}
+
+page-radio .dv_box .dv_items {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  text-align: center;
+  line-height: 52px;
+}
+
+page-radio .dv_box .dv_items ion-icon {
+  font-size: 26px;
+  color: #d33a31;
+  position: relative;
+  top: 3px;
+}
+
+music-card .card {
+  width: 33.33%;
+  overflow: hidden;
+  float: left;
+  margin-bottom: 10px;
+}
+
+music-card .card .imgs {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  background-color: #008b57;
+}
+
+music-card .card p {
+  display: block;
+  width: 100%;
+  padding: 0 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 6px 0;
+}
+
+music-card .card:nth-of-type(3n+2) .imgs {
+  border-left: 4px solid #fff;
+  border-right: 4px solid #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: yellow;
+}
+
+page-ranking .official {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
+}
+
+page-ranking .official .imgs {
+  width: 33.33%;
+  height: 0;
+  padding-bottom: 33.33%;
+  background-color: #008b57;
+  float: left;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+page-ranking .official .list {
+  width: 64%;
+  float: right;
+  line-height: 24px;
+}
+
+page-ranking .official .list p {
+  width: 100%;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+page-recommended ion-list-header {
+  border: none !important;
+  margin-bottom: 5px !important;
+  border-left: 5px solid #d33a31 !important;
+  height: auto !important;
+  min-height: auto !important;
+}
+
 imenu .dv_box {
   border-bottom: 1px solid #e6e6e6;
   background: #fff;
@@ -33232,9 +33411,41 @@ imenu .dv_box .dv_items .icon-wrap {
   font-size: 26px;
 }
 
+music-card .card {
+  width: 33.33%;
+  overflow: hidden;
+  float: left;
+  margin-bottom: 10px;
+}
+
+music-card .card .imgs {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  background-color: #008b57;
+}
+
+music-card .card p {
+  display: block;
+  width: 100%;
+  padding: 0 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 6px 0;
+}
+
+music-card .card:nth-of-type(3n+2) .imgs {
+  border-left: 4px solid #fff;
+  border-right: 4px solid #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: yellow;
+}
+
 swiper .swiper-container {
   width: 100%;
-  height: 135px;
+  height: 145px;
   text-align: center;
   font-size: 25px;
   color: #fff;
