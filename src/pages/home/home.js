@@ -1,6 +1,9 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
+  'page-home imusic ion-icon': {
+    'color': '#d33a31'
+  },
   'page-home segment-button': {
     'borderBottomColor': 'transparent !important'
   },

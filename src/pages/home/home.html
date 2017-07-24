@@ -28,7 +28,32 @@
 </ion-header>
 
 <ion-content [ngSwitch]="segments">
-    <section class="icontent" *ngSwitchCase="'music'">1</section>
+    <section class="icontent imusic" *ngSwitchCase="'music'">
+        <ion-list no-border>
+
+            <ion-item>
+                <ion-icon name='eye' item-left color="h"></ion-icon>
+                本地音乐
+            </ion-item>
+            <ion-item>
+                <ion-icon name='star' item-left color="h"></ion-icon>
+                最近播放
+            </ion-item>
+            <ion-item>
+                <ion-icon name='document' item-left color="h"></ion-icon>
+                下载管理
+            </ion-item>
+            <ion-item>
+                <ion-icon name='time' item-left color="h"></ion-icon>
+                我的电台
+            </ion-item>
+            <ion-item>
+                <ion-icon name='bookmarks' item-left color="h"></ion-icon>
+                我的收藏
+            </ion-item>
+
+        </ion-list>
+    </section>
 
     <section class="icontent" *ngSwitchCase="'home'">
         <super-tabs selectedTabIndex="0" toolbarColor="ired" toolbarBackground="ifff" indicatorColor="ired" badgeColor="ired">
@@ -39,14 +64,16 @@
         </super-tabs>
     </section>
 
-    <section class="icontent" *ngSwitchCase="'contacts'">3</section>
+    <section class="icontent" *ngSwitchCase="'contacts'">
+        动态
+    </section>
 
 </ion-content>
 
 <ion-footer no-border>
     <ion-toolbar color="ifff">
-        <img src="http://p1.music.126.net/JasIh-W-RcFspF2FBmnebQ==/19032546277052763.jpg?param=50y50&quality=100" alt="">
-        <p>DINOSAUR</p>
+        <img (click)="openMusic();" src="http://p1.music.126.net/JasIh-W-RcFspF2FBmnebQ==/19032546277052763.jpg?param=50y50&quality=100" alt="">
+        <p (click)="openMusic();">DINOSAUR</p>
         <ion-icon name="list-box"></ion-icon>
         <ion-icon name="arrow-dropright-circle"></ion-icon>
     </ion-toolbar>

@@ -18,4 +18,8 @@ export class HomePage {
 
   }
 
+  openMusic(){
+    this.navCtrl.push( "MusicPage" );
+  }
+
 }
