@@ -51,6 +51,7 @@ RadioPageModule = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RadioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_songs_songs__ = __webpack_require__(192);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -62,6 +63,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 /**
  * Generated class for the RadioPage page.
  *
@@ -69,9 +71,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * on Ionic pages and navigation.
  */
 var RadioPage = (function () {
-    function RadioPage(navCtrl, navParams) {
+    function RadioPage(songs, navCtrl, navParams) {
+        this.songs = songs;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.data = {};
+        this.data = this.songs.radio;
     }
     RadioPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad RadioPage');
@@ -81,11 +86,12 @@ var RadioPage = (function () {
 RadioPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-radio',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/radio/radio.html"*/'<!--\n  Generated template for the RadioPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-content>\n    <section class="dv_box">\n        <div class="dv_items">\n            <ion-icon name="ios-keypad"></ion-icon>&nbsp;&nbsp;电台分类\n        </div>\n        <div class="dv_items">\n            <ion-icon name="stats"></ion-icon>&nbsp;&nbsp;电台排行\n        </div>\n    </section>\n    <ion-list-header>\n        推荐歌单 >\n    </ion-list-header>\n    <music-card></music-card>\n    <ion-list-header>\n        推荐歌单 >\n    </ion-list-header>\n    <music-card></music-card>\n    <ion-list-header>\n        推荐歌单 >\n    </ion-list-header>\n    <music-card></music-card>\n    <ion-list-header>\n        推荐歌单 >\n    </ion-list-header>\n    <music-card></music-card>\n    <ion-list-header>\n        推荐歌单 >\n    </ion-list-header>\n    <music-card></music-card>\n    <ion-list-header>\n        推荐歌单 >\n    </ion-list-header>\n    <music-card></music-card>\n    <ion-list-header>\n        推荐歌单 >\n    </ion-list-header>\n    <music-card></music-card>\n    <ion-list-header>\n        推荐歌单 >\n    </ion-list-header>\n    <music-card></music-card>\n</ion-content>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/radio/radio.html"*/,
+        selector: 'page-radio',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/radio/radio.html"*/'<!--\n  Generated template for the RadioPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-content>\n    <section class="dv_box">\n        <div class="dv_items">\n            <ion-icon name="ios-keypad"></ion-icon>&nbsp;&nbsp;电台分类\n        </div>\n        <div class="dv_items">\n            <ion-icon name="stats"></ion-icon>&nbsp;&nbsp;电台排行\n        </div>\n    </section>\n    <ion-list-header>\n        推荐节目 >\n    </ion-list-header>\n    <music-card [data]="data.Hot"></music-card>\n    <ion-list-header>\n        音乐故事·电台 >\n    </ion-list-header>\n    <music-card [data]="data.Story"></music-card>\n    <ion-list-header>\n        美文读物·电台 >\n    </ion-list-header>\n    <music-card [data]="data.Reading"></music-card>\n    <ion-list-header>\n        脱口秀·电台 >\n    </ion-list-header>\n    <music-card [data]="data.Talk"></music-card>\n    <ion-list-header>\n        情感调频·电台 >\n    </ion-list-header>\n    <music-card [data]="data.Emotional"></music-card>\n    <ion-list-header>\n        创作|翻唱·电台 >\n    </ion-list-header>\n    <music-card [data]="data.Creation"></music-card>\n    <ion-list-header>\n        人文历史·电台 >\n    </ion-list-header>\n    <music-card [data]="data.History"></music-card>\n\n</ion-content>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/radio/radio.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__providers_songs_songs__["a" /* SongsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_songs_songs__["a" /* SongsProvider */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]) === "function" && _c || Object])
 ], RadioPage);
 
+var _a, _b, _c;
 //# sourceMappingURL=radio.js.map
 
 /***/ }),
@@ -154,14 +160,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  */
 var MusicCardComponent = (function () {
     function MusicCardComponent() {
-        console.log('Hello MusicCardComponent Component');
-        this.text = 'Hello World';
+        this.data = [];
     }
     return MusicCardComponent;
 }());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+    __metadata("design:type", Object)
+], MusicCardComponent.prototype, "data", void 0);
 MusicCardComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'music-card',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/radio/components/music-card/music-card.html"*/'<!-- Generated template for the MusicCardComponent component -->\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/radio/components/music-card/music-card.html"*/
+        selector: 'music-card',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/radio/components/music-card/music-card.html"*/'<!-- Generated template for the MusicCardComponent component -->\n\n<section class="card" *ngFor="let idata of data">\n    <div class="imgs" [style.background]="\'url(\'+ idata.img +\')\'"></div>\n    <p class="title">{{idata.title}}</p>\n    <p class="dec">{{idata.dec}}</p>\n</section>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/radio/components/music-card/music-card.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], MusicCardComponent);

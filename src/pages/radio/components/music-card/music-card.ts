@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 /**
  * Generated class for the MusicCardComponent component.
@@ -12,11 +12,10 @@ import { Component } from '@angular/core';
 })
 export class MusicCardComponent {
 
-  text: string;
+  @Input() data:any = [];
 
   constructor() {
-    console.log('Hello MusicCardComponent Component');
-    this.text = 'Hello World';
+    
   }
 
 }

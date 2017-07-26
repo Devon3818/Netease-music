@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { SongsProvider } from '../../providers/songs/songs';
 /**
  * Generated class for the RadioPage page.
  *
@@ -14,7 +14,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class RadioPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  data:any = {};
+
+  constructor(public songs: SongsProvider, public navCtrl: NavController, public navParams: NavParams) {
+    this.data = this.songs.radio;
   }
 
   ionViewDidLoad() {
