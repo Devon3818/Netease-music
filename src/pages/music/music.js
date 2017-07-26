@@ -47,11 +47,11 @@ export default StyleSheet.create({
     'margin': [{ 'unit': 'px', 'value': 80 }, { 'unit': 'string', 'value': 'auto' }, { 'unit': 'px', 'value': 80 }, { 'unit': 'string', 'value': 'auto' }]
   },
   'page-music ion-toolbar': {
-    'height': [{ 'unit': 'px', 'value': 220 }]
+    'height': [{ 'unit': 'px', 'value': 150 }]
   },
   'page-music ion-toolbar icon-menu': {
     'width': [{ 'unit': '%H', 'value': 0.8 }],
-    'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'string', 'value': 'auto' }, { 'unit': 'px', 'value': 0 }, { 'unit': 'string', 'value': 'auto' }],
+    'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'string', 'value': 'auto' }, { 'unit': 'px', 'value': 20 }, { 'unit': 'string', 'value': 'auto' }],
     'display': 'flex',
     'display': '-webkit-flex'
   },

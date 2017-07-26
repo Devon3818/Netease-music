@@ -1,0 +1,44 @@
+song-list {
+    .songs {
+        width: 100%;
+        overflow: hidden;
+        padding: 8px 0;
+        span {
+            display: block;
+            color: #7b7b7b;
+            font-size: 22px;
+            float: left;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+        .names {
+            width: calc(100% - 50px);
+            overflow: hidden;
+            height: 50px;
+            float: left;
+            .song_name {
+                font-size: 18px;
+                line-height: 28px;
+            }
+            .song_dec {
+                color: #7b7b7b;
+            }
+            .p_wrap {
+                float: left;
+                width: 90%;
+            }
+            p {
+                margin: 0;
+            }
+            ion-icon {
+                float: right;
+                width: 10%;
+                line-height: 50px;
+                font-size: 20px;
+                color: #7b7b7b;
+            }
+        }
+    }
+}

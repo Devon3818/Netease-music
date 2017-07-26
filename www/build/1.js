@@ -7,11 +7,11 @@ webpackJsonp([1],{
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RecommendedPageModule", function() { return RecommendedPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__recommended__ = __webpack_require__(291);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_swiper_swiper_module__ = __webpack_require__(292);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_imenu_imenu_module__ = __webpack_require__(294);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_music_card_music_card_module__ = __webpack_require__(296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__recommended__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_swiper_swiper_module__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_imenu_imenu_module__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_music_card_music_card_module__ = __webpack_require__(299);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -50,13 +50,13 @@ RecommendedPageModule = __decorate([
 
 /***/ }),
 
-/***/ 291:
+/***/ 294:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RecommendedPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -106,14 +106,14 @@ RecommendedPage = __decorate([
 
 /***/ }),
 
-/***/ 292:
+/***/ 295:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SwiperComponentModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper__ = __webpack_require__(296);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -146,7 +146,7 @@ SwiperComponentModule = __decorate([
 
 /***/ }),
 
-/***/ 293:
+/***/ 296:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -196,14 +196,14 @@ SwiperComponent = __decorate([
 
 /***/ }),
 
-/***/ 294:
+/***/ 297:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuComponentModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__imenu__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__imenu__ = __webpack_require__(298);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -236,7 +236,7 @@ MenuComponentModule = __decorate([
 
 /***/ }),
 
-/***/ 295:
+/***/ 298:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -276,14 +276,14 @@ MenuComponent = __decorate([
 
 /***/ }),
 
-/***/ 296:
+/***/ 299:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MusicCardComponentModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__music_card__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__music_card__ = __webpack_require__(300);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -316,12 +316,13 @@ MusicCardComponentModule = __decorate([
 
 /***/ }),
 
-/***/ 297:
+/***/ 300:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MusicCardComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -332,6 +333,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 /**
  * Generated class for the MusicCardComponent component.
  *
@@ -339,17 +341,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * for more info on Angular Components.
  */
 var MusicCardComponent = (function () {
-    function MusicCardComponent() {
-        console.log('Hello MusicCardComponent Component');
+    function MusicCardComponent(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.rootNavCtrl = navParams.get('rootNavCtrl');
         this.text = 'Hello World';
     }
+    MusicCardComponent.prototype.OpenPlaylistPage = function () {
+        this.rootNavCtrl.push('OpenPlaylistPage');
+    };
     return MusicCardComponent;
 }());
 MusicCardComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'music-card',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/recommended/components/music-card/music-card.html"*/'<!-- Generated template for the MusicCardComponent component -->\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/recommended/components/music-card/music-card.html"*/
+        selector: 'music-card',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/recommended/components/music-card/music-card.html"*/'<!-- Generated template for the MusicCardComponent component -->\n<section class="card" (click)="OpenPlaylistPage();">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>\n<section class="card">\n    <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n    <p class="title">Back to You</p>\n    <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n</section>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/recommended/components/music-card/music-card.html"*/
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
 ], MusicCardComponent);
 
 //# sourceMappingURL=music-card.js.map

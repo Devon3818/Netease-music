@@ -1,14 +1,14 @@
 webpackJsonp([5],{
 
-/***/ 262:
+/***/ 263:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MusicPageModule", function() { return MusicPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PlaylistPageModule", function() { return PlaylistPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__music__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__playlist__ = __webpack_require__(289);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,36 +18,36 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var MusicPageModule = (function () {
-    function MusicPageModule() {
+var PlaylistPageModule = (function () {
+    function PlaylistPageModule() {
     }
-    return MusicPageModule;
+    return PlaylistPageModule;
 }());
-MusicPageModule = __decorate([
+PlaylistPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__music__["a" /* MusicPage */],
+            __WEBPACK_IMPORTED_MODULE_2__playlist__["a" /* PlaylistPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__music__["a" /* MusicPage */])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__playlist__["a" /* PlaylistPage */])
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__music__["a" /* MusicPage */]
+            __WEBPACK_IMPORTED_MODULE_2__playlist__["a" /* PlaylistPage */]
         ]
     })
-], MusicPageModule);
+], PlaylistPageModule);
 
-//# sourceMappingURL=music.module.js.map
+//# sourceMappingURL=playlist.module.js.map
 
 /***/ }),
 
-/***/ 285:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MusicPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlaylistPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -60,30 +60,30 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the MusicPage page.
+ * Generated class for the PlaylistPage page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-var MusicPage = (function () {
-    function MusicPage(navCtrl, navParams) {
+var PlaylistPage = (function () {
+    function PlaylistPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    MusicPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad MusicPage');
+    PlaylistPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PlaylistPage');
     };
-    return MusicPage;
+    return PlaylistPage;
 }());
-MusicPage = __decorate([
+PlaylistPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-music',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/music/music.html"*/'<!--\n  Generated template for the MusicPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n    <ion-navbar color="itr">\n        <ion-title>最好的我们</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n    <section class="wrap">\n        <img class="bar" src="assets/icon/needle-ip6.png" />\n        <section class="cd_wrap">\n            <img src="assets/icon/disc_default.png" alt="">\n        </section>\n    </section>\n\n</ion-content>\n\n<ion-footer no-border>\n    <ion-toolbar color="itr">\n        <section class="icon-menu">\n            <ion-icon name="heart-outline"></ion-icon>\n            <ion-icon name="archive"></ion-icon>\n            <ion-icon name="chatbubbles"></ion-icon>\n            <ion-icon name="more"></ion-icon>\n        </section>\n        <p class="time">00:00 ----------------------------------------- 04:00</p>\n\n        <section class="icon-btm">\n            <ion-icon name="shuffle"></ion-icon>\n            <ion-icon name="ios-skip-backward"></ion-icon>\n            <ion-icon name="pause"></ion-icon>\n            <ion-icon name="ios-skip-forward"></ion-icon>\n            <ion-icon name="list"></ion-icon>\n        </section>\n\n    </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/music/music.html"*/,
+        selector: 'page-playlist',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/playlist/playlist.html"*/'<!--\n  Generated template for the PlaylistPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-content>\n\n    <header class="iheader">\n        <section class="all">全部歌单》</section>\n        <div class="ti">欧美</div>\n        <div class="ti">摇滚</div>\n        <div class="ti">民谣</div>\n    </header>\n\n    <section class="card">\n        <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n        <p class="title">Back to You</p>\n        <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n    </section>\n    <section class="card">\n        <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n        <p class="title">Back to You</p>\n        <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n    </section>\n    <section class="card">\n        <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n        <p class="title">Back to You</p>\n        <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n    </section>\n    <section class="card">\n        <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n        <p class="title">Back to You</p>\n        <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n    </section>\n    <section class="card">\n        <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n        <p class="title">Back to You</p>\n        <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n    </section>\n    <section class="card">\n        <div class="imgs" [style.background]="\'url(http://p1.music.126.net/4Ah60CB4hWtzL4oPBb3dfg==/18962177532877657.jpg?param=140y140)\'"></div>\n        <p class="title">Back to You</p>\n        <p class="dec">Louis Tomlinson/Bebe Rexha/Digital Farm Animals</p>\n    </section>\n</ion-content>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/playlist/playlist.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
-], MusicPage);
+], PlaylistPage);
 
-//# sourceMappingURL=music.js.map
+//# sourceMappingURL=playlist.js.map
 
 /***/ })
 

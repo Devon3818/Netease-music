@@ -36245,6 +36245,16 @@ super-tabs-toolbar > ion-toolbar.toolbar.scroll-tabs .tab-buttons-container .ind
   margin-top: -2px;
 }
 
+.menu-inner {
+  width: 80% !important;
+}
+
+.i_menu .header_bar {
+  width: 100%;
+  height: 190px;
+  background: #d33a31;
+}
+
 page-home .imusic ion-icon {
   color: #d33a31;
 }
@@ -36349,12 +36359,12 @@ page-music .cd_wrap {
 }
 
 page-music ion-toolbar {
-  height: 220px;
+  height: 150px;
 }
 
 page-music ion-toolbar .icon-menu {
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36390,6 +36400,165 @@ page-music ion-toolbar .icon-btm ion-icon {
   text-align: center;
   color: #fff;
   font-size: 28px;
+}
+
+page-open-playlist .fixed-content,
+page-open-playlist .scroll-content {
+  margin-top: 0 !important;
+}
+
+page-open-playlist .header_banner {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  padding-top: 75px;
+  background-image: url("http://p4.music.126.net/Js93mLjA-Fo0yuAtrwyfJQ==/745468893912261.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+page-open-playlist .header_banner .bigimg {
+  width: 35%;
+  display: block;
+  float: left;
+  margin-left: 5%;
+}
+
+page-open-playlist .header_banner .dec {
+  float: left;
+  margin-left: 10px;
+  color: #fff;
+  width: 52%;
+}
+
+page-open-playlist .header_banner .dec p {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+page-open-playlist .header_banner .sm_u {
+  overflow: hidden;
+  width: 100%;
+}
+
+page-open-playlist .header_banner .sm_u img {
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 99999px;
+}
+
+page-open-playlist .header_banner .sm_u p {
+  float: left;
+  padding-left: 8px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+page-open-playlist .header_banner .btm_bar {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+}
+
+page-open-playlist .header_banner .btm_bar .dv_items {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  text-align: center;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+page-open-playlist .header_banner .btm_bar .dv_items ion-icon {
+  font-size: 32px;
+}
+
+page-open-playlist .header_banner .btm_bar .dv_items p {
+  margin: 0;
+}
+
+page-open-playlist ion-footer img {
+  float: left;
+}
+
+page-open-playlist ion-footer p {
+  margin-left: 12px;
+  float: left;
+  width: 50%;
+  background: #fff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+page-open-playlist ion-footer ion-icon {
+  float: right;
+  text-align: center;
+  line-height: 50px;
+  font-size: 38px;
+  margin-left: 16px;
+}
+
+song-list .songs {
+  width: 100%;
+  overflow: hidden;
+  padding: 8px 0;
+}
+
+song-list .songs span {
+  display: block;
+  color: #7b7b7b;
+  font-size: 22px;
+  float: left;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+song-list .songs .names {
+  width: calc(100% - 50px);
+  overflow: hidden;
+  height: 50px;
+  float: left;
+}
+
+song-list .songs .names .song_name {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+song-list .songs .names .song_dec {
+  color: #7b7b7b;
+}
+
+song-list .songs .names .p_wrap {
+  float: left;
+  width: 90%;
+}
+
+song-list .songs .names p {
+  margin: 0;
+}
+
+song-list .songs .names ion-icon {
+  float: right;
+  width: 10%;
+  line-height: 50px;
+  font-size: 20px;
+  color: #7b7b7b;
 }
 
 page-playlist .iheader {
