@@ -1,0 +1,6 @@
+<!-- Generated template for the PlayListCardComponent component -->
+<section *ngFor="let idata of data" class="card" (click)="OpenPlaylistPage();">
+    <div class="imgs" [style.background]="'url('+ idata.img +')'"></div>
+    <p class="title">{{idata.name}}</p>
+
+</section>

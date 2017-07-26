@@ -1,6 +1,11 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
+  'page-music #iaudio': {
+    'width': [{ 'unit': 'px', 'value': 1 }],
+    'height': [{ 'unit': 'px', 'value': 1 }],
+    'display': 'none'
+  },
   'page-music ion-content': {
     'width': [{ 'unit': '%H', 'value': 1 }],
     'height': [{ 'unit': '%V', 'value': 1 }],

@@ -15,11 +15,7 @@ export default StyleSheet.create({
   },
   'music-card card p': {
     'display': 'block',
-    'width': [{ 'unit': '%H', 'value': 1 }],
     'padding': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 5 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 5 }],
-    'textOverflow': 'ellipsis',
-    'overflow': 'hidden',
-    'whiteSpace': 'nowrap',
     'margin': [{ 'unit': 'px', 'value': 6 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 6 }, { 'unit': 'px', 'value': 0 }]
   },
   'music-card card:nth-of-type(3n+2) imgs': {

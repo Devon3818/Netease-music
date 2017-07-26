@@ -18,6 +18,8 @@ page-open-playlist {
             display: block;
             float: left;
             margin-left: 5%;
+            border: 2px solid #fff;
+            box-sizing: border-box;
         }
         .dec {
             float: left;
@@ -73,6 +75,7 @@ page-open-playlist {
     ion-footer {
         img {
             float: left;
+            width: 50px;
         }
         p {
             margin-left: 12px;

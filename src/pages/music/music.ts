@@ -14,7 +14,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class MusicPage {
 
+  mp3url = '2414898';
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    //this.mp3url = this.navParams.get('mp3');
+    
   }
 
   ionViewDidLoad() {

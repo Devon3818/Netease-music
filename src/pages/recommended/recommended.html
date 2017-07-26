@@ -14,27 +14,27 @@
     <ion-list-header>
         推荐歌单 >
     </ion-list-header>
-    <music-card></music-card>
+    <music-card [data]="data.Hot"></music-card>
 
     <ion-list-header>
-        独家放送 >
+        华语 >
     </ion-list-header>
-    <music-card></music-card>
+    <music-card [data]="data.Chinese"></music-card>
 
     <ion-list-header>
-        最新音乐 >
+        流行 >
     </ion-list-header>
-    <music-card></music-card>
+    <music-card [data]="data.Popular"></music-card>
+
+    <ion-list-header>
+        摇滚 >
+    </ion-list-header>
+    <music-card [data]="data.Rock"></music-card>
 
     <ion-list-header>
         推荐MV >
     </ion-list-header>
-    <music-card></music-card>
-
-    <ion-list-header>
-        主播电台 >
-    </ion-list-header>
-    <music-card></music-card>
+    <music-card [data]="data.Hot"></music-card>
 
 
 </ion-content>

@@ -36288,6 +36288,7 @@ page-home super-tabs-toolbar > ion-toolbar.toolbar .tab-buttons-container .tab-b
 
 page-home ion-footer img {
   float: left;
+  width: 50px;
 }
 
 page-home ion-footer p {
@@ -36305,6 +36306,12 @@ page-home ion-footer ion-icon {
   line-height: 50px;
   font-size: 36px;
   margin-left: 16px;
+}
+
+page-music #iaudio {
+  width: 1px;
+  height: 1px;
+  display: none;
 }
 
 page-music ion-content {
@@ -36424,6 +36431,9 @@ page-open-playlist .header_banner .bigimg {
   display: block;
   float: left;
   margin-left: 5%;
+  border: 2px solid #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 page-open-playlist .header_banner .dec {
@@ -36491,6 +36501,7 @@ page-open-playlist .header_banner .btm_bar .dv_items p {
 
 page-open-playlist ion-footer img {
   float: left;
+  width: 50px;
 }
 
 page-open-playlist ion-footer p {
@@ -36579,7 +36590,7 @@ page-playlist .iheader .ti {
   padding: 8px 7px;
 }
 
-page-playlist .card {
+play-list-card .card {
   width: 50%;
   overflow: hidden;
   float: left;
@@ -36590,24 +36601,24 @@ page-playlist .card {
   background: #fff;
 }
 
-page-playlist .card .imgs {
+play-list-card .card .imgs {
   width: 100%;
   height: 0;
   padding-bottom: 100%;
   background-color: #008b57;
 }
 
-page-playlist .card p {
+play-list-card .card p {
   display: block;
   width: 100%;
-  padding: 0 5px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  padding: 0 5px;
   margin: 6px 0;
 }
 
-page-playlist .card:nth-of-type(2n) .imgs {
+play-list-card .card:nth-of-type(2n) .imgs {
   border-right: 4px solid #fff;
 }
 
@@ -36663,11 +36674,7 @@ music-card .card .imgs {
 
 music-card .card p {
   display: block;
-  width: 100%;
   padding: 0 5px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
   margin: 6px 0;
 }
 
@@ -36781,11 +36788,7 @@ music-card .card .imgs {
 
 music-card .card p {
   display: block;
-  width: 100%;
   padding: 0 5px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
   margin: 6px 0;
 }
 

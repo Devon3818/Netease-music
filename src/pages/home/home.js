@@ -29,7 +29,8 @@ export default StyleSheet.create({
     'color': '#8f9090 !important'
   },
   'page-home ion-footer img': {
-    'float': 'left'
+    'float': 'left',
+    'width': [{ 'unit': 'px', 'value': 50 }]
   },
   'page-home ion-footer p': {
     'marginLeft': [{ 'unit': 'px', 'value': 12 }],

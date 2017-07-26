@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 260:
+/***/ 262:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,8 +8,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomePageModule", function() { return HomePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic2_super_tabs__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic2_super_tabs__ = __webpack_require__(277);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -44,7 +44,7 @@ HomePageModule = __decorate([
 
 /***/ }),
 
-/***/ 267:
+/***/ 269:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53,15 +53,15 @@ HomePageModule = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__super_tabs_toolbar__ = __webpack_require__(270);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__super_tabs_container__ = __webpack_require__(273);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_super_tabs_controller__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__super_tabs_toolbar__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__super_tabs_container__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_super_tabs_controller__ = __webpack_require__(270);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ionic_angular_navigation_nav_util__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_observable_fromEvent__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_observable_fromEvent__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_observable_fromEvent__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_observable_merge__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_observable_merge__ = __webpack_require__(278);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_observable_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_observable_merge__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_debounceTime__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_debounceTime__ = __webpack_require__(279);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_debounceTime___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_debounceTime__);
 
 
@@ -583,7 +583,7 @@ var superTabsIds = -1;
 
 /***/ }),
 
-/***/ 268:
+/***/ 270:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -671,7 +671,7 @@ SuperTabsController.ctorParameters = function () { return []; };
 
 /***/ }),
 
-/***/ 269:
+/***/ 271:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -679,7 +679,7 @@ SuperTabsController.ctorParameters = function () { return []; };
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular_transitions_transition_controller__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__super_tabs__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__super_tabs__ = __webpack_require__(269);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -846,15 +846,15 @@ SuperTab.propDecorators = {
 
 /***/ }),
 
-/***/ 270:
+/***/ 272:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SuperTabsToolbar; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__super_tabs_pan_gesture__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__super_tab_button__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__super_tabs_pan_gesture__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__super_tab_button__ = __webpack_require__(274);
 
 
 
@@ -999,7 +999,7 @@ SuperTabsToolbar.propDecorators = {
 
 /***/ }),
 
-/***/ 271:
+/***/ 273:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1093,7 +1093,7 @@ var SuperTabsPanGesture = (function () {
 
 /***/ }),
 
-/***/ 272:
+/***/ 274:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1149,14 +1149,14 @@ SuperTabButton.propDecorators = {
 
 /***/ }),
 
-/***/ 273:
+/***/ 275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SuperTabsContainer; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__super_tabs_pan_gesture__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__super_tabs_pan_gesture__ = __webpack_require__(273);
 
 
 
@@ -1375,7 +1375,7 @@ SuperTabsContainer.propDecorators = {
 
 /***/ }),
 
-/***/ 274:
+/***/ 276:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1410,7 +1410,7 @@ var HomePage = (function () {
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/home/home.html"*/'<ion-header no-border>\n\n    <ion-toolbar color="ired">\n        <ion-buttons left>\n            <button ion-button icon-only menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n        </ion-buttons>\n        <ion-segment no-border color="light" [(ngModel)]="segments">\n            <ion-segment-button class="s-left" value="music">\n                <ion-icon name="musical-notes"></ion-icon>\n            </ion-segment-button>\n            <ion-segment-button value="home">\n                <ion-icon name="home"></ion-icon>\n            </ion-segment-button>\n            <ion-segment-button class="s-right" value="contacts">\n                <ion-icon name="contacts"></ion-icon>\n            </ion-segment-button>\n        </ion-segment>\n        <ion-buttons end>\n            <button ion-button icon-only>\n        <ion-icon name="search"></ion-icon>\n      </button>\n        </ion-buttons>\n    </ion-toolbar>\n\n\n</ion-header>\n\n<ion-content [ngSwitch]="segments">\n    <section class="icontent imusic" *ngSwitchCase="\'music\'">\n        <ion-list no-border>\n\n            <ion-item>\n                <ion-icon name=\'eye\' item-left color="h"></ion-icon>\n                本地音乐\n            </ion-item>\n            <ion-item>\n                <ion-icon name=\'star\' item-left color="h"></ion-icon>\n                最近播放\n            </ion-item>\n            <ion-item>\n                <ion-icon name=\'document\' item-left color="h"></ion-icon>\n                下载管理\n            </ion-item>\n            <ion-item>\n                <ion-icon name=\'time\' item-left color="h"></ion-icon>\n                我的电台\n            </ion-item>\n            <ion-item>\n                <ion-icon name=\'bookmarks\' item-left color="h"></ion-icon>\n                我的收藏\n            </ion-item>\n\n        </ion-list>\n    </section>\n\n    <section class="icontent" *ngSwitchCase="\'home\'">\n        <super-tabs selectedTabIndex="0" toolbarColor="ired" toolbarBackground="ifff" indicatorColor="ired" badgeColor="ired">\n            <super-tab [root]="recommended" title="个性推荐"></super-tab>\n            <super-tab [root]="playlist" title="歌单"></super-tab>\n            <super-tab [root]="radio" title="主播电台"></super-tab>\n            <super-tab [root]="ranking" title="排行榜"></super-tab>\n        </super-tabs>\n    </section>\n\n    <section class="icontent" *ngSwitchCase="\'contacts\'">\n        动态\n    </section>\n\n</ion-content>\n\n<ion-footer no-border>\n    <ion-toolbar color="ifff">\n        <img (click)="openMusic();" src="http://p1.music.126.net/JasIh-W-RcFspF2FBmnebQ==/19032546277052763.jpg?param=50y50&quality=100" alt="">\n        <p (click)="openMusic();">DINOSAUR</p>\n        <ion-icon name="list-box"></ion-icon>\n        <ion-icon name="arrow-dropright-circle"></ion-icon>\n    </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/home/home.html"*/'<ion-header no-border>\n\n    <ion-toolbar color="ired">\n        <ion-buttons left>\n            <button ion-button icon-only menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n        </ion-buttons>\n        <ion-segment no-border color="light" [(ngModel)]="segments">\n            <ion-segment-button class="s-left" value="music">\n                <ion-icon name="musical-notes"></ion-icon>\n            </ion-segment-button>\n            <ion-segment-button value="home">\n                <ion-icon name="home"></ion-icon>\n            </ion-segment-button>\n            <ion-segment-button class="s-right" value="contacts">\n                <ion-icon name="contacts"></ion-icon>\n            </ion-segment-button>\n        </ion-segment>\n        <ion-buttons end>\n            <button ion-button icon-only>\n        <ion-icon name="search"></ion-icon>\n      </button>\n        </ion-buttons>\n    </ion-toolbar>\n\n\n</ion-header>\n\n<ion-content [ngSwitch]="segments">\n    <section class="icontent imusic" *ngSwitchCase="\'music\'">\n        <ion-list no-border>\n\n            <ion-item>\n                <ion-icon name=\'eye\' item-left color="h"></ion-icon>\n                本地音乐\n            </ion-item>\n            <ion-item>\n                <ion-icon name=\'star\' item-left color="h"></ion-icon>\n                最近播放\n            </ion-item>\n            <ion-item>\n                <ion-icon name=\'document\' item-left color="h"></ion-icon>\n                下载管理\n            </ion-item>\n            <ion-item>\n                <ion-icon name=\'time\' item-left color="h"></ion-icon>\n                我的电台\n            </ion-item>\n            <ion-item>\n                <ion-icon name=\'bookmarks\' item-left color="h"></ion-icon>\n                我的收藏\n            </ion-item>\n\n        </ion-list>\n    </section>\n\n    <section class="icontent" *ngSwitchCase="\'home\'">\n        <super-tabs selectedTabIndex="0" toolbarColor="ired" toolbarBackground="ifff" indicatorColor="ired" badgeColor="ired">\n            <super-tab [root]="recommended" title="个性推荐"></super-tab>\n            <super-tab [root]="playlist" title="歌单"></super-tab>\n            <super-tab [root]="radio" title="主播电台"></super-tab>\n            <super-tab [root]="ranking" title="排行榜"></super-tab>\n        </super-tabs>\n    </section>\n\n    <section class="icontent" *ngSwitchCase="\'contacts\'">\n        动态\n    </section>\n\n</ion-content>\n\n<ion-footer no-border>\n    <ion-toolbar color="ifff">\n        <img (click)="openMusic();" src="http://p1.music.126.net/7tbeDDuTR_U_4F_u1qGKWQ==/2539871861205743.jpg?param=34y34" alt="">\n        <p (click)="openMusic();">Lost In The Echo</p>\n        <ion-icon name="list-box"></ion-icon>\n        <ion-icon name="arrow-dropright-circle"></ion-icon>\n    </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */]])
 ], HomePage);
@@ -1419,17 +1419,17 @@ HomePage = __decorate([
 
 /***/ }),
 
-/***/ 275:
+/***/ 277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_super_tab__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_super_tab__ = __webpack_require__(271);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_super_tabs__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_super_tabs__ = __webpack_require__(269);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_super_tabs_controller__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_super_tabs_controller__ = __webpack_require__(270);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__super_tabs_module__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__super_tabs_module__ = __webpack_require__(286);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__super_tabs_module__["a"]; });
 
 
@@ -1439,31 +1439,31 @@ HomePage = __decorate([
 
 /***/ }),
 
-/***/ 276:
+/***/ 278:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(9);
-var merge_1 = __webpack_require__(191);
+var merge_1 = __webpack_require__(193);
 Observable_1.Observable.merge = merge_1.merge;
 //# sourceMappingURL=merge.js.map
 
 /***/ }),
 
-/***/ 277:
+/***/ 279:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(9);
-var debounceTime_1 = __webpack_require__(278);
+var debounceTime_1 = __webpack_require__(280);
 Observable_1.Observable.prototype.debounceTime = debounceTime_1.debounceTime;
 //# sourceMappingURL=debounceTime.js.map
 
 /***/ }),
 
-/***/ 278:
+/***/ 280:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1474,7 +1474,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(27);
-var async_1 = __webpack_require__(279);
+var async_1 = __webpack_require__(281);
 /**
  * Emits a value from the source Observable only after a particular time span
  * has passed without another source emission.
@@ -1586,13 +1586,13 @@ function dispatchNext(subscriber) {
 
 /***/ }),
 
-/***/ 279:
+/***/ 281:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var AsyncAction_1 = __webpack_require__(280);
-var AsyncScheduler_1 = __webpack_require__(282);
+var AsyncAction_1 = __webpack_require__(282);
+var AsyncScheduler_1 = __webpack_require__(284);
 /**
  *
  * Async Scheduler
@@ -1640,7 +1640,7 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 
 /***/ }),
 
-/***/ 280:
+/***/ 282:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1651,7 +1651,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var root_1 = __webpack_require__(26);
-var Action_1 = __webpack_require__(281);
+var Action_1 = __webpack_require__(283);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -1789,7 +1789,7 @@ exports.AsyncAction = AsyncAction;
 
 /***/ }),
 
-/***/ 281:
+/***/ 283:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1840,7 +1840,7 @@ exports.Action = Action;
 
 /***/ }),
 
-/***/ 282:
+/***/ 284:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1850,7 +1850,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Scheduler_1 = __webpack_require__(283);
+var Scheduler_1 = __webpack_require__(285);
 var AsyncScheduler = (function (_super) {
     __extends(AsyncScheduler, _super);
     function AsyncScheduler() {
@@ -1898,7 +1898,7 @@ exports.AsyncScheduler = AsyncScheduler;
 
 /***/ }),
 
-/***/ 283:
+/***/ 285:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1954,19 +1954,19 @@ exports.Scheduler = Scheduler;
 
 /***/ }),
 
-/***/ 284:
+/***/ 286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SuperTabsModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_super_tab__ = __webpack_require__(269);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_super_tabs__ = __webpack_require__(267);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_super_tabs_controller__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_super_tabs_toolbar__ = __webpack_require__(270);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_super_tabs_container__ = __webpack_require__(273);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_super_tab_button__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_super_tab__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_super_tabs__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_super_tabs_controller__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_super_tabs_toolbar__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_super_tabs_container__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_super_tab_button__ = __webpack_require__(274);
 
 
 

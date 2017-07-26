@@ -7,7 +7,7 @@
 <ion-header no-border>
 
     <ion-navbar color="itr">
-        <ion-title>歌单</ion-title>
+        <ion-title>{{data.title}}</ion-title>
     </ion-navbar>
 
 </ion-header>
@@ -15,12 +15,12 @@
 
 <ion-content>
     <section class="header_banner">
-        <img class="bigimg" src="http://p3.music.126.net/eDufAKSriJrnR3X51vBclA==/109951162981585955.jpg?param=200y200" alt="">
+        <img class="bigimg" [src]="data.banner" alt="">
         <div class="dec">
-            <p>【综艺】中餐厅背景音乐BGM合集</p>
+            <p>{{data.title}}</p>
             <div class="sm_u">
-                <img src="http://p1.music.126.net/_5vZlpc2akPWPwsBZTHSkg==/3265549566906373.jpg?param=40y40" alt="">
-                <p>Tomorrow唐某睿</p>
+                <img [src]="data.user_img" alt="">
+                <p>{{data.user_name}}</p>
             </div>
         </div>
         <section class="btm_bar">
@@ -43,14 +43,14 @@
         </section>
     </section>
 
-    <song-list></song-list>
+    <song-list [data]="data.songs"></song-list>
 
 </ion-content>
 
 <ion-footer no-border>
     <ion-toolbar color="ifff">
-        <img (click)="openMusic();" src="http://p1.music.126.net/JasIh-W-RcFspF2FBmnebQ==/19032546277052763.jpg?param=50y50&quality=100" alt="">
-        <p (click)="openMusic();">DINOSAUR</p>
+        <img (click)="openMusic();" src="http://p1.music.126.net/7tbeDDuTR_U_4F_u1qGKWQ==/2539871861205743.jpg?param=34y34" alt="">
+        <p (click)="openMusic();">Lost In The Echo</p>
         <ion-icon name="list-box"></ion-icon>
         <ion-icon name="arrow-dropright-circle"></ion-icon>
     </ion-toolbar>

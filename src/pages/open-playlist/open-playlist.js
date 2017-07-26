@@ -22,7 +22,9 @@ export default StyleSheet.create({
     'width': [{ 'unit': '%H', 'value': 0.35 }],
     'display': 'block',
     'float': 'left',
-    'marginLeft': [{ 'unit': '%H', 'value': 0.05 }]
+    'marginLeft': [{ 'unit': '%H', 'value': 0.05 }],
+    'border': [{ 'unit': 'px', 'value': 2 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#fff' }],
+    'boxSizing': 'border-box'
   },
   'page-open-playlist header_banner dec': {
     'float': 'left',
@@ -75,7 +77,8 @@ export default StyleSheet.create({
     'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }]
   },
   'page-open-playlist ion-footer img': {
-    'float': 'left'
+    'float': 'left',
+    'width': [{ 'unit': 'px', 'value': 50 }]
   },
   'page-open-playlist ion-footer p': {
     'marginLeft': [{ 'unit': 'px', 'value': 12 }],

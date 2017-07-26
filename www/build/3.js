@@ -1,15 +1,15 @@
 webpackJsonp([3],{
 
-/***/ 262:
+/***/ 265:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OpenPlaylistPageModule", function() { return OpenPlaylistPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PlaylistPageModule", function() { return PlaylistPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__open_playlist__ = __webpack_require__(286);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_song_list_song_list_module__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__playlist__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_play_list_card_play_list_card_module__ = __webpack_require__(292);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -20,37 +20,38 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var OpenPlaylistPageModule = (function () {
-    function OpenPlaylistPageModule() {
+var PlaylistPageModule = (function () {
+    function PlaylistPageModule() {
     }
-    return OpenPlaylistPageModule;
+    return PlaylistPageModule;
 }());
-OpenPlaylistPageModule = __decorate([
+PlaylistPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__open_playlist__["a" /* OpenPlaylistPage */],
+            __WEBPACK_IMPORTED_MODULE_2__playlist__["a" /* PlaylistPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__open_playlist__["a" /* OpenPlaylistPage */]),
-            __WEBPACK_IMPORTED_MODULE_3__components_song_list_song_list_module__["a" /* SongListComponentModule */]
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__playlist__["a" /* PlaylistPage */]),
+            __WEBPACK_IMPORTED_MODULE_3__components_play_list_card_play_list_card_module__["a" /* PlayListCardComponentModule */]
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__open_playlist__["a" /* OpenPlaylistPage */]
+            __WEBPACK_IMPORTED_MODULE_2__playlist__["a" /* PlaylistPage */]
         ]
     })
-], OpenPlaylistPageModule);
+], PlaylistPageModule);
 
-//# sourceMappingURL=open-playlist.module.js.map
+//# sourceMappingURL=playlist.module.js.map
 
 /***/ }),
 
-/***/ 286:
+/***/ 291:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OpenPlaylistPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlaylistPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_songs_songs__ = __webpack_require__(192);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -62,45 +63,46 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 /**
- * Generated class for the OpenPlaylistPage page.
+ * Generated class for the PlaylistPage page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-var OpenPlaylistPage = (function () {
-    function OpenPlaylistPage(navCtrl, navParams) {
+var PlaylistPage = (function () {
+    function PlaylistPage(songs, navCtrl, navParams) {
+        this.songs = songs;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.data = [];
+        this.data = this.songs.datas.Hot;
     }
-    OpenPlaylistPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad OpenPlaylistPage');
+    PlaylistPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PlaylistPage');
     };
-    OpenPlaylistPage.prototype.openMusic = function () {
-        this.navCtrl.push("MusicPage");
-    };
-    return OpenPlaylistPage;
+    return PlaylistPage;
 }());
-OpenPlaylistPage = __decorate([
+PlaylistPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-open-playlist',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/open-playlist/open-playlist.html"*/'<!--\n  Generated template for the OpenPlaylistPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n    <ion-navbar color="itr">\n        <ion-title>歌单</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n    <section class="header_banner">\n        <img class="bigimg" src="http://p3.music.126.net/eDufAKSriJrnR3X51vBclA==/109951162981585955.jpg?param=200y200" alt="">\n        <div class="dec">\n            <p>【综艺】中餐厅背景音乐BGM合集</p>\n            <div class="sm_u">\n                <img src="http://p1.music.126.net/_5vZlpc2akPWPwsBZTHSkg==/3265549566906373.jpg?param=40y40" alt="">\n                <p>Tomorrow唐某睿</p>\n            </div>\n        </div>\n        <section class="btm_bar">\n            <div class="dv_items">\n                <ion-icon name="folder-open"></ion-icon>\n                <p>322323</p>\n            </div>\n            <div class="dv_items">\n                <ion-icon name="text"></ion-icon>\n                <p>54554</p>\n            </div>\n            <div class="dv_items">\n                <ion-icon name="share"></ion-icon>\n                <p>3323</p>\n            </div>\n            <div class="dv_items">\n                <ion-icon name="cloud-download"></ion-icon>\n                <p>下载</p>\n            </div>\n        </section>\n    </section>\n\n    <song-list></song-list>\n\n</ion-content>\n\n<ion-footer no-border>\n    <ion-toolbar color="ifff">\n        <img (click)="openMusic();" src="http://p1.music.126.net/JasIh-W-RcFspF2FBmnebQ==/19032546277052763.jpg?param=50y50&quality=100" alt="">\n        <p (click)="openMusic();">DINOSAUR</p>\n        <ion-icon name="list-box"></ion-icon>\n        <ion-icon name="arrow-dropright-circle"></ion-icon>\n    </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/open-playlist/open-playlist.html"*/,
+        selector: 'page-playlist',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/playlist/playlist.html"*/'<!--\n  Generated template for the PlaylistPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-content>\n\n    <header class="iheader">\n        <section class="all">全部歌单》</section>\n        <div class="ti">欧美</div>\n        <div class="ti">摇滚</div>\n        <div class="ti">民谣</div>\n    </header>\n\n    <play-list-card [data]="data"></play-list-card>\n</ion-content>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/playlist/playlist.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
-], OpenPlaylistPage);
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__providers_songs_songs__["a" /* SongsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
+], PlaylistPage);
 
-//# sourceMappingURL=open-playlist.js.map
+//# sourceMappingURL=playlist.js.map
 
 /***/ }),
 
-/***/ 287:
+/***/ 292:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SongListComponentModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlayListCardComponentModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__song_list__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__play_list_card__ = __webpack_require__(293);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -110,34 +112,34 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SongListComponentModule = (function () {
-    function SongListComponentModule() {
+var PlayListCardComponentModule = (function () {
+    function PlayListCardComponentModule() {
     }
-    return SongListComponentModule;
+    return PlayListCardComponentModule;
 }());
-SongListComponentModule = __decorate([
+PlayListCardComponentModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__song_list__["a" /* SongListComponent */],
+            __WEBPACK_IMPORTED_MODULE_2__play_list_card__["a" /* PlayListCardComponent */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicModule */],
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__song_list__["a" /* SongListComponent */]
+            __WEBPACK_IMPORTED_MODULE_2__play_list_card__["a" /* PlayListCardComponent */]
         ]
     })
-], SongListComponentModule);
+], PlayListCardComponentModule);
 
-//# sourceMappingURL=song-list.module.js.map
+//# sourceMappingURL=play-list-card.module.js.map
 
 /***/ }),
 
-/***/ 288:
+/***/ 293:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SongListComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlayListCardComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -152,31 +154,36 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the SongListComponent component.
+ * Generated class for the PlayListCardComponent component.
  *
  * See https://angular.io/docs/ts/latest/api/core/index/ComponentMetadata-class.html
  * for more info on Angular Components.
  */
-var SongListComponent = (function () {
-    function SongListComponent(navCtrl, navParams) {
+var PlayListCardComponent = (function () {
+    function PlayListCardComponent(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        console.log('Hello SongListComponent Component');
-        this.text = 'Hello World';
+        this.data = [];
+        this.rootNavCtrl = navParams.get('rootNavCtrl');
     }
-    SongListComponent.prototype.openMusic = function () {
-        this.navCtrl.push("MusicPage");
+    PlayListCardComponent.prototype.OpenPlaylistPage = function () {
+        this.rootNavCtrl.push('OpenPlaylistPage');
     };
-    return SongListComponent;
+    return PlayListCardComponent;
 }());
-SongListComponent = __decorate([
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+    __metadata("design:type", Object)
+], PlayListCardComponent.prototype, "data", void 0);
+PlayListCardComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'song-list',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/open-playlist/components/song-list/song-list.html"*/'<!-- Generated template for the SongListComponent component -->\n<section class="songs" (click)="openMusic();">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>\n<section class="songs">\n    <span>1</span>\n    <div class="names">\n        <div class="p_wrap">\n            <p class="song_name">Wing$</p>\n            <p class="song_dec">Sin preocupación, en el corazón</p>\n        </div>\n        <ion-icon name="more"></ion-icon>\n    </div>\n</section>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/open-playlist/components/song-list/song-list.html"*/
+        selector: 'play-list-card',template:/*ion-inline-start:"/Users/apple/Desktop/github/Netease-music/src/pages/playlist/components/play-list-card/play-list-card.html"*/'<!-- Generated template for the PlayListCardComponent component -->\n<section *ngFor="let idata of data" class="card" (click)="OpenPlaylistPage();">\n    <div class="imgs" [style.background]="\'url(\'+ idata.img +\')\'"></div>\n    <p class="title">{{idata.name}}</p>\n\n</section>'/*ion-inline-end:"/Users/apple/Desktop/github/Netease-music/src/pages/playlist/components/play-list-card/play-list-card.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
-], SongListComponent);
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]) === "function" && _b || Object])
+], PlayListCardComponent);
 
-//# sourceMappingURL=song-list.js.map
+var _a, _b;
+//# sourceMappingURL=play-list-card.js.map
 
 /***/ })
 

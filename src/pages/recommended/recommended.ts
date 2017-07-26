@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { SongsProvider } from '../../providers/songs/songs';
 /**
  * Generated class for the RecommendedPage page.
  *
@@ -26,7 +26,12 @@ export class RecommendedPage {
     "http://p1.music.126.net/hIwCAw2dz0PiFiujNkM6RA==/19142497439833776.jpg"
   ]
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  data:any;
+
+
+  constructor(public songs: SongsProvider, public navCtrl: NavController, public navParams: NavParams) {
+    this.data = this.songs.datas;
+    console.log(this.data);
   }
 
   ionViewDidLoad() {

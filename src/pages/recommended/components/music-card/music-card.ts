@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 /**
  * Generated class for the MusicCardComponent component.
@@ -12,12 +12,12 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class MusicCardComponent {
 
-  text: string;
+  @Input() data: any = [];
   rootNavCtrl: NavController;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.rootNavCtrl = navParams.get('rootNavCtrl');
-    this.text = 'Hello World';
+    
   }
 
   OpenPlaylistPage(){

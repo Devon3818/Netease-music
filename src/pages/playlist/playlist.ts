@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { SongsProvider } from '../../providers/songs/songs';
 /**
  * Generated class for the PlaylistPage page.
  *
@@ -14,7 +14,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class PlaylistPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  data:any = [];
+
+  constructor(public songs: SongsProvider, public navCtrl: NavController, public navParams: NavParams) {
+    this.data = this.songs.datas.Hot;
   }
 
   ionViewDidLoad() {

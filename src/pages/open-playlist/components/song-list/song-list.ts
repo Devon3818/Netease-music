@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 /**
@@ -13,15 +13,17 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class SongListComponent {
 
-  text: string;
+  @Input() data:any = [];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    console.log('Hello SongListComponent Component');
-    this.text = 'Hello World';
+    
   }
 
-  openMusic(){
-    this.navCtrl.push( "MusicPage" );
+  openMusic( mp3 ){
+    
+    this.navCtrl.push( "MusicPage",{
+      mp3:mp3
+    } );
   }
 
 }
